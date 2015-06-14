@@ -11,11 +11,13 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development, :test do
+  gem 'minitest'
+  gem 'test-unit'
   gem 'byebug'
   gem 'web-console', '~> 2.0'
   gem 'spring'
   gem 'turn'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '~> 3.0'
   gem 'capybara'
   gem 'guard-rspec'
 end
